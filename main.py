@@ -9,13 +9,20 @@
 
 #This program converts miles, mpg, and cost of gas, to find the total cost for the entire trip
 
-miles_str = input('Enter the number of miles in the trip')
+#Prompt the user to enter the amount of miles in the trip
+miles_str = input('Enter the number of miles in the trip: ')
 miles_int = int(miles_str)
-mpg_str = input('Enter the number of mpg')
+
+#Prompt the user to enter the amount of mpg
+mpg_str = input('Enter the number of mpg: ')
 mpg_int = int(mpg_str)
-cost_of_gas_str = input('Enter the cost of gas')
+
+#Prompt the user to enter the cost of the gas
+cost_of_gas_str = input('Enter the cost of gas: ')
 cost_of_gas_int = int(cost_of_gas_str)
 
+#calculate the cost of the trip
 cost_of_trip =(miles_int / mpg_int) * cost_of_gas_int
 
-print("The cost of the trip is", cost_of_trip)
+#display the cost of the trip to the user
+print("The cost of the trip is:", cost_of_trip)
