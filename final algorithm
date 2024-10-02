@@ -1,0 +1,18 @@
+Algorithm
+
+
+This program should calculate the cost for the trip
+
+1.	Prompt the user to enter the number of miles you will travel: (‘Enter the number of miles’)
+a.	Convert your input to a float
+
+2.	Prompt the user to enter the miles per gallon: (‘Enter miles per gallon’)
+a.	Convert your input to a float
+
+3.	Prompt the user to enter the price per gallon: (‘Price of gas is’)
+a.	Convert your input to a float
+
+4.	Compute the cost of gas using the following formula
+Miles/mpg * cost of gas
+
+5.	Display output to the user
